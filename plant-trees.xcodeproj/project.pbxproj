@@ -11,7 +11,6 @@
 		82CF9CF81F195DBD005B4B61 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CF9CF71F195DBD005B4B61 /* art.scnassets */; };
 		82CF9CFA1F195DBD005B4B61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF9CF91F195DBD005B4B61 /* ViewController.swift */; };
 		82CF9CFD1F195DBD005B4B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CF9CFB1F195DBD005B4B61 /* Main.storyboard */; };
-		82CF9CFF1F195DBD005B4B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CF9CFE1F195DBD005B4B61 /* Assets.xcassets */; };
 		82CF9D021F195DBD005B4B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CF9D001F195DBD005B4B61 /* LaunchScreen.storyboard */; };
 		82CF9D0D1F195DBD005B4B61 /* plant_treesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF9D0C1F195DBD005B4B61 /* plant_treesTests.swift */; };
 		82CF9D181F195DBD005B4B61 /* plant_treesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF9D171F195DBD005B4B61 /* plant_treesUITests.swift */; };
@@ -40,7 +39,6 @@
 		82CF9CF71F195DBD005B4B61 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		82CF9CF91F195DBD005B4B61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82CF9CFC1F195DBD005B4B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82CF9CFE1F195DBD005B4B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CF9D011F195DBD005B4B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CF9D031F195DBD005B4B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82CF9D081F195DBD005B4B61 /* plant-treesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "plant-treesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +47,7 @@
 		82CF9D131F195DBD005B4B61 /* plant-treesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "plant-treesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CF9D171F195DBD005B4B61 /* plant_treesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plant_treesUITests.swift; sourceTree = "<group>"; };
 		82CF9D191F195DBD005B4B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DAE3A11F1FEF8000A8FE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				82CF9CF51F195DBD005B4B61 /* AppDelegate.swift */,
+				82DAE3A11F1FEF8000A8FE1A /* Assets.xcassets */,
 				82CF9CF71F195DBD005B4B61 /* art.scnassets */,
 				82CF9CF91F195DBD005B4B61 /* ViewController.swift */,
 				82CF9CFB1F195DBD005B4B61 /* Main.storyboard */,
-				82CF9CFE1F195DBD005B4B61 /* Assets.xcassets */,
 				82CF9D001F195DBD005B4B61 /* LaunchScreen.storyboard */,
 				82CF9D031F195DBD005B4B61 /* Info.plist */,
 			);
@@ -234,7 +233,6 @@
 			files = (
 				82CF9CF81F195DBD005B4B61 /* art.scnassets in Resources */,
 				82CF9D021F195DBD005B4B61 /* LaunchScreen.storyboard in Resources */,
-				82CF9CFF1F195DBD005B4B61 /* Assets.xcassets in Resources */,
 				82CF9CFD1F195DBD005B4B61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Q7YD9VLQ;
 				INFOPLIST_FILE = "plant-trees/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JustineKay.plant-trees";
@@ -440,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Q7YD9VLQ;
 				INFOPLIST_FILE = "plant-trees/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JustineKay.plant-trees";
@@ -526,6 +526,7 @@
 				82CF9D1E1F195DBD005B4B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82CF9D1F1F195DBD005B4B61 /* Build configuration list for PBXNativeTarget "plant-treesTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				82CF9D211F195DBD005B4B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82CF9D221F195DBD005B4B61 /* Build configuration list for PBXNativeTarget "plant-treesUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				82CF9D241F195DBD005B4B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
